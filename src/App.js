@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import Header from './components/header';
+import Footer from './components/footer';
+import Book from './components/book';
+import Skills from './components/skills';
+import Headline from './components/headLine';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='App-container'>
+        <Header />
+        <section className='section section_introduction'>
+          <Headline />
+        </section>
+        <section className='section section_work'>
+          <h2>Works</h2>
+          <Book />
+        </section>
+        <section className='section section_skills'>
+          <h2>Skills</h2>
+          <Skills />
+        </section>
+        <Footer />
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+/* <h2>About</h2> */
+/* <p className='introduction'>
+            Hello 👋 <br />
+            I'm Erwan Robin - curious<br />
+            designer & web developper <br />
+            based in Strasbourg, France.</p> */
