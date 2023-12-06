@@ -64,7 +64,7 @@ function Headline() {
         data-period="2000"
         data-type='[
         "Hello👋",
-        "My name is Erwan. R",
+        "My name is Erwan. Robin",
         "I Love Design.",
         "I Love to Develop.",
         "I am based in Strasbourg, France"
