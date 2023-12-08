@@ -1,37 +1,32 @@
-.skills-container {
+.skills {
   width: 75%;
-}
-.container {
-  width: 100%;
-  background-color: #ddd;
+  &__container {
+    width: 100%;
+    background-color: #ddd;
+    &-item {
+      color: white;
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 40px;
+      box-sizing: border-box;
+    }
+  }
 }
 
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
-.html,
-.css,
-.js,
-.php {
-  padding-right: 20px;
-  box-sizing: border-box;
-}
-.html {
+.--html {
   width: 90%;
   background-color: #705216;
 }
-.css {
+.--css {
   width: 80%;
   background-color: #705216;
 }
-.js {
+.--js {
   width: 65%;
   background-color: #705216;
 }
-.php {
+.--php {
   width: 60%;
   background-color: #705216;
 }

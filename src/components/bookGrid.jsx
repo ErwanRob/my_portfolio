@@ -3,7 +3,7 @@ import BookCard from "./bookCard";
 
 function BookGrid() {
   return (
-    <div className="book-grid">
+    <div className="book__grid">
       {datasProject.map((project) => (
         <BookCard
           key={project.id}

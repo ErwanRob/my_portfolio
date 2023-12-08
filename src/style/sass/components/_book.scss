@@ -1,5 +1,4 @@
-.book-container {
-  /* border: 10px solid black; */
+.book {
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -7,24 +6,33 @@
   width: 100%;
   max-width: 1440px;
   padding: 40px;
-  /*  height: 75vh; */
   box-sizing: border-box;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  &__grid {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
 }
 
-.book-grid {
-  display: grid;
-  flex-wrap: wrap;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  /*   grid-template-columns: repeat(3, 1fr); */
-  gap: 20px;
-}
-.book-card {
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-
-.book-card-img {
-  width: 100%;
-  height: 100%;
+.cube {
+  &__faceOne {
+    &-img {
+    }
+  }
+  &__faceTwo {
+    &-title {
+    }
+    &-byline {
+    }
+  }
 }

@@ -11,7 +11,7 @@ function Footer() {
         <button>Instagram</button>
         <button>Email</button>
       </nav>
-      <span className="author">Made with ❤️ by Erwan Robin </span>
+      <span className="App-author">Made with ❤️ by Erwan Robin </span>
     </div>
   );
 }

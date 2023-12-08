@@ -1,13 +1,13 @@
 function BookCard({ title, description, img }) {
   return (
-    <div className="book-card">
-      <div className="book-card-cube">
-        <div className="work-card__face-one">
-          <img src={img} className="book-card-img" alt="altrrr" />
+    <div className="book__card">
+      <div className="cube">
+        <div className="cube__faceOne">
+          <img src={img} className="cube__faceOne-img" alt="altrrr" />
         </div>
-        <div className="work-card__face-two">
-          <h3>Titre du projet : {title}</h3>
-          <p>{description}</p>
+        <div className="cube__faceTwo">
+          <h3 className="cube__faceTwo-title">Titre du projet : {title}</h3>
+          <p className="cube__faceTwo-byline">{description}</p>
         </div>
       </div>
     </div>

@@ -23,8 +23,7 @@ h4 {
   margin: 40px 0px;
 }
 
-.book-container {
-  /* border: 10px solid black; */
+.book {
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -32,27 +31,22 @@ h4 {
   width: 100%;
   max-width: 1440px;
   padding: 40px;
-  /*  height: 75vh; */
   box-sizing: border-box;
 }
-
-.book-grid {
+.book img {
+  width: 100%;
+  height: 100%;
+}
+.book__grid {
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  /*   grid-template-columns: repeat(3, 1fr); */
   gap: 20px;
 }
-
-.book-card {
+.book__card {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-
-.book-card-img {
-  width: 100%;
-  height: 100%;
 }
 
 button {
@@ -134,46 +128,38 @@ button:hover {
   background-color: rgba(41, 10, 0, 0.1647058824);
 }
 
-.skills-container {
+.skills {
   width: 75%;
 }
-
-.container {
+.skills__container {
   width: 100%;
   background-color: #ddd;
 }
-
-.skills {
+.skills__container-item {
+  color: white;
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
-}
-
-.html,
-.css,
-.js,
-.php {
-  padding-right: 20px;
+  padding-right: 40px;
   box-sizing: border-box;
 }
 
-.html {
+.--html {
   width: 90%;
   background-color: #705216;
 }
 
-.css {
+.--css {
   width: 80%;
   background-color: #705216;
 }
 
-.js {
+.--js {
   width: 65%;
   background-color: #705216;
 }
 
-.php {
+.--php {
   width: 60%;
   background-color: #705216;
 }
@@ -192,7 +178,6 @@ code {
 .App {
   background-color: #e0d0c1;
 }
-
 .App-container {
   width: 100%;
   max-width: 1440px;
@@ -205,8 +190,7 @@ code {
   box-sizing: border-box;
   /* align-items: center; */
 }
-
-.author {
+.App-author {
   margin-top: 40px;
   padding: 0 10px;
 }
