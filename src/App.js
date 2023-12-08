@@ -1,4 +1,4 @@
-import './index.css';
+import './style/style.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import Book from './components/book';
@@ -11,14 +11,14 @@ function App() {
     <div className="App">
       <div className='App-container'>
         <Header />
-        <section className='section section_introduction'>
+        <section className='section section__introduction'>
           <Headline />
         </section>
-        <section className='section section_work'>
+        <section className='section section__work'>
           <h2>Works</h2>
           <Book />
         </section>
-        <section className='section section_skills'>
+        <section className='section section__skills'>
           <h2>Skills</h2>
           <Skills />
         </section>
@@ -29,14 +29,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-/* <h2>About</h2> */
-/* <p className='introduction'>
-            Hello 👋 <br />
-            I'm Erwan Robin - curious<br />
-            designer & web developper <br />
-            based in Strasbourg, France.</p> */

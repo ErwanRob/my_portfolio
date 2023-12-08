@@ -60,13 +60,13 @@ function Headline() {
   return (
     <div>
       <p
-        className="introduction typewrite"
+        className="section__introduction-txt typewrite"
         data-period="2000"
         data-type='[
         "Hello👋",
-        "My name is Erwan. Robin",
-        "I Love Design.",
+        "My name is Erwan Robin",
         "I Love to Develop.",
+        "I Love Design.",
         "I am based in Strasbourg, France"
         ]'
       >

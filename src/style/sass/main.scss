@@ -1,32 +1,28 @@
-/* @import "./Layout/footer";
-@import "./Layout/header";
-@import "./Pages/home";
-@import "./Pages/restaurants"; */
-
-@import "./base/typographie";
 @import "./utils/variables";
+@import "./base/typographie";
+@import "./base/base";
 @import "./utils/mixins";
-
-:root {
-  --mainColor: #e0d0c1;
-  --secondaryColor: #b7857b;
-  --thirdColor: #290a002a;
-  --fourthColor: #8f655d;
-  /* --mainColor: #b7857b;
-  --secondaryColor: #e0d0c1; */
-}
+@import "./components/book";
+@import "./components/button";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/section";
+@import "./components/skills";
 
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif; */
   font-family: "Courier Prime", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .App {
-  background-color: var(--mainColor);
+  background-color: $color-primary;
 }
 
 .App-container {
@@ -40,4 +36,9 @@ body {
   /*   padding: 0 20px; */
   box-sizing: border-box;
   /* align-items: center; */
+}
+
+.author {
+  margin-top: 40px;
+  padding: 0 10px;
 }
