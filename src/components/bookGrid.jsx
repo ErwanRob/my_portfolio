@@ -10,6 +10,8 @@ function BookGrid() {
           title={project.title}
           description={project.description}
           img={project.image}
+          carouselImg={project.carouselImg}
+          gitHubLink={project.gitHubLink}
         />
       ))}
     </div>

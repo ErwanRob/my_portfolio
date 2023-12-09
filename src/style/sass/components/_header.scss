@@ -1,7 +1,9 @@
 .header {
+  font-size: 20px;
   background-color: $color-tertiary;
   display: flex;
   flex-direction: row;
+
   justify-content: space-between;
   box-sizing: border-box;
   align-items: center;
@@ -9,4 +11,25 @@
   height: 100px;
   width: 100%;
   border-radius: 0 0 40px 40px;
+  &-decoration {
+    display: none;
+    @media (min-width: 1440px) {
+      display: flex;
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    font-size: 16px;
+  }
+  &-nav {
+    flex-wrap: wrap;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+  }
 }

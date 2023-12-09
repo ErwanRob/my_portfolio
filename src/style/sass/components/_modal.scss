@@ -1,0 +1,156 @@
+.modal {
+  &__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-tertiary;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &-btnClose {
+      right: 0;
+      font-size: 20px;
+      border: 2px solid white;
+      border-radius: 10px;
+      background-color: rgba(255, 0, 0, 0.15);
+      &:hover {
+        background-color: red;
+        font-size: 20px;
+      }
+    }
+  }
+  &__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    &-gitLink {
+      transition: transform 0.25s;
+      justify-content: center;
+      width: 30%;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: $color-quaternary;
+      text-decoration: none;
+      color: black;
+      border: 2px solid $color-quintary;
+      &:hover {
+        transform: scale(1.05);
+        background-color: $color-quintary;
+        color: white;
+      }
+    }
+    &-nav {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+    }
+  }
+  &__carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    &-imgContainer {
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+      height: 65vh;
+      width: 100%;
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      margin-bottom: 80px;
+      @media (max-width: 1024px) {
+        margin-bottom: 40px;
+        height: 45vh;
+      }
+      @media (max-width: 768px) {
+        margin-bottom: 20px;
+        height: 35vh;
+      }
+    }
+
+    img {
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    &-btnPrev {
+      animation: giggle 300ms 1s 1 ease-in-out;
+      border: 2px solid $color-tertiary;
+      width: 25%;
+      border-radius: 10px;
+      background-color: $color-quaternary;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    &-btnNext {
+      animation: giggle 300ms 1150ms 1 ease-in-out;
+      border: 2px solid $color-tertiary;
+      width: 25%;
+      border-radius: 10px;
+      background-color: $color-quaternary;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    &-description {
+      margin: 10px 0;
+      background-color: $color-tertiary;
+      padding: 10px 40px 10px 40px;
+      border-radius: 20px;
+      @media (max-width: 768px) {
+        padding: 8px;
+      }
+    }
+  }
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+@keyframes giggle {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+  /*   60% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  } */
+}

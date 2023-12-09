@@ -1,32 +1,47 @@
 [
   {
     "id": "1",
-    "title": "Projet1",
-    "description": "description projet1",
-    "image": "./imgtest.png"
+    "title": "OhMyFood",
+    "description": "This project aimed to recreate the interface of a a new kind of restaurant",
+    "image": "./OhMyImage/titleOhMy.png",
+    "carouselImg": ["./OhMyImage/1.png", "./OhMyImage/2.png"],
+    "gitHubLink": "https://erwanrob.github.io/Project_4_OhMyFood/"
   },
   {
     "id": "2",
-    "title": "Projet2",
-    "description": "description projet2",
-    "image": "./imgtest.png"
+    "title": "Sophie Bluel",
+    "description": "This project make me learn about login in javascript, and how to use an API and its endpoints",
+    "image": "./SBImage/titleSB.png",
+    "carouselImg": [
+      "./SBImage/SB1.png",
+      "./SBImage/SB2.png",
+      "./SBImage/SB3.png"
+    ],
+    "gitHubLink": "https://github.com/ErwanRob/Project_6_Sophie-Bluel.git"
   },
+
   {
     "id": "3",
-    "title": "Projet3",
-    "description": "description projet3",
-    "image": "./imgtest.png"
+    "title": "Nina Carducci",
+    "description": "With this project i learn SEO, how to optimise website for them to be seen",
+    "image": "./NinaImage/titleNina.png",
+    "carouselImg": [
+      "./NinaImage/Nina1.png",
+      "./NinaImage/Nina2.png",
+      "./NinaImage/Nina3.png"
+    ],
+    "gitHubLink": "https://erwanrob.github.io/Nina_Carducci/"
   },
   {
     "id": "4",
-    "title": "Projet4",
-    "description": "description projet4",
-    "image": "./imgtest.png"
-  },
-  {
-    "id": "5",
-    "title": "Projet5",
-    "description": "description projet5",
-    "image": "./imgtest.png"
+    "title": "Kasa",
+    "description": "Kasa was my first React project.",
+    "image": "./KasaImage/Kasatitle.png",
+    "carouselImg": [
+      "./KasaImage/Kasa1.png",
+      "./KasaImage/Kasa2.png",
+      "./KasaImage/Kasa3.png"
+    ],
+    "gitHubLink": "https://kasa-project-react.vercel.app/"
   }
 ]

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="Contact">
       <h4>
         LET'S WORK <br />
         TOGETHER🤝

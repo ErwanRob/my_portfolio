@@ -58,7 +58,7 @@ function Headline() {
     document.body.appendChild(css);
   };
   return (
-    <div>
+    <div className="section__introduction-wrapper">
       <p
         className="section__introduction-txt typewrite"
         data-period="2000"

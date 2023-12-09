@@ -13,12 +13,13 @@ function App() {
         <Header />
         <section className='section section__introduction'>
           <Headline />
+          <img className="section section__introduction-img" src="./typwrite1.jpg" alt="typwrite" />
         </section>
-        <section className='section section__work'>
+        <section className='section section__work' id="Works">
           <h2>Works</h2>
           <Book />
         </section>
-        <section className='section section__skills'>
+        <section className='section section__skills' id="Skills">
           <h2>Skills</h2>
           <Skills />
         </section>
