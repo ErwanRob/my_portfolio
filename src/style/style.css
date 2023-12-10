@@ -126,7 +126,7 @@ h5 {
   }
 }
 .cube__faceOne-button {
-  background-color: rgba(172, 165, 147, 0.1725490196);
+  /* background-color: $button-color; */
   width: 150px;
   color: black;
   position: absolute;

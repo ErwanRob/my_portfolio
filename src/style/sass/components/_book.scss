@@ -70,7 +70,7 @@ $translateSmall: calc($size / 4);
       transform: rotateY(0deg) translateZ(calc($translateSmall));
     }
     &-button {
-      background-color: $button-color;
+      /* background-color: $button-color; */
       width: 150px;
       color: black;
       position: absolute;
