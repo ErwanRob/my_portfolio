@@ -1,4 +1,4 @@
-import './style/style.css';
+/* import './style/style.css'; */
 import Header from './components/header';
 import Footer from './components/footer';
 import Book from './components/book';

@@ -61,6 +61,11 @@ h5 {
   padding: 20px 20px 40px 20px;
   box-sizing: border-box;
 }
+@media (max-width: 1024px) {
+  .book {
+    padding: 20px;
+  }
+}
 .book img {
   width: 100%;
   height: 100%;
@@ -257,7 +262,7 @@ button:hover {
   box-sizing: border-box;
   align-items: center;
   color: #60460e;
-  background-color: #e0d0c1;
+  /* background-color: $color-primary; */
   padding: 20px;
   width: 100%;
   height: auto;
@@ -278,6 +283,7 @@ button:hover {
 @media (max-width: 1024px) {
   .footer-right {
     align-items: center;
+    text-align: center;
   }
 }
 .footer-nav {
@@ -397,6 +403,7 @@ button:hover {
   .section__skills-wrapper {
     flex-direction: column-reverse;
     align-items: center;
+    padding: 0 20px 0 20px;
   }
 }
 .section__about {
@@ -666,7 +673,9 @@ code {
 }
 
 .App {
-  background-color: #e0d0c1;
+  /*  background-color: $color-primary; */
+  /* background-color: linear-gradient($color-primary, $color-tertiary); */
+  background: linear-gradient(90deg, #e0d0c1, rgba(183, 133, 123, 0.2980392157));
 }
 .App-container {
   width: 100%;
