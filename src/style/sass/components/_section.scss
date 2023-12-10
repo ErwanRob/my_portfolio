@@ -3,31 +3,27 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
   &__introduction {
     margin-top: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
-    background-color: #aca593;
-    border-radius: 40px;
-    /* height: 30vh; */
+    background-color: $color-sixtary;
     width: 100%;
     justify-content: center;
-    /* @media (max-width: 768px) {
-      height: 20vh;
-    } */
     &-img {
       padding: 20px;
       width: 30%;
       height: 40%;
       border-radius: 40px;
     }
-
     &-wrapper {
       width: 70%;
     }
     &-txt {
-      /*  margin: 20px auto 20px 0px; */
       font-size: 6rem;
       margin-right: auto;
       padding: 20px 40px;
@@ -36,23 +32,17 @@
         font-size: 3.5rem;
       }
       @media (max-width: 768px) {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
   }
   &__work {
     display: flex;
-    border-radius: 40px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     background-color: $color-secondary;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
   }
   &__skills {
     display: flex;
-    border-radius: 40px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     background-color: $color-tertiary;
     &-wrapper {
@@ -67,6 +57,24 @@
         flex-direction: column-reverse;
         align-items: center;
       }
+    }
+  }
+  &__about {
+    background-color: $color-sixtary;
+
+    &-container {
+      padding: 20px;
+      display: flex;
+      width: 80%;
+      border: 3px solid black;
+      border-style: dashed;
+      margin: 20px;
+      box-sizing: border-box;
+    }
+    &-txt {
+      font-family: "Special Elite", cursive;
+      margin: 0;
+      font-size: 26px;
     }
   }
 }

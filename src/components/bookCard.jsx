@@ -154,23 +154,3 @@ function BookCard({ title, description, img, carouselImg, gitHubLink }) {
 }
 
 export default BookCard;
-
-/* ,
-  {
-    "id": "3",
-    "title": "Projet3",
-    "description": "description projet3",
-    "image": "./imgtest.png"
-  },
-  {
-    "id": "4",
-    "title": "Projet4",
-    "description": "description projet4",
-    "image": "./imgtest.png"
-  },
-  {
-    "id": "5",
-    "title": "Projet5",
-    "description": "description projet5",
-    "image": "./imgtest.png"
-  } */

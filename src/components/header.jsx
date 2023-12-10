@@ -14,9 +14,9 @@ function Header() {
           {" "}
           <button>Skills</button>
         </a>
-        <a href="/">
+        <a href="#About">
           {" "}
-          <button>Resume</button>
+          <button>About</button>
         </a>
         <a href="#Contact">
           <button>Contact</button>
