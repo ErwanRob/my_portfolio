@@ -674,7 +674,6 @@ code {
 
 .App {
   /*  background-color: $color-primary; */
-  /* background-color: linear-gradient($color-primary, $color-tertiary); */
   background: linear-gradient(90deg, #e0d0c1, rgba(183, 133, 123, 0.2980392157));
 }
 .App-container {
