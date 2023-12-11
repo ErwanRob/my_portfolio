@@ -2,7 +2,9 @@
   {
     "id": "1",
     "title": "OhMyFood",
-    "description": "This project aimed to recreate the interface of a a new kind of restaurant",
+    "byline": "This project aimed to recreate the interface of a a new kind of restaurant",
+    "tags": ["HTML", "CSS", "JAVASCRIPT"],
+    "description": "This project aimed to recreate the interface of a a new kind of restaurant This project aimed to recreate the interface of a a new kind of restaurantThis project aimed to recreate the interface of a a new kind of restaurantThis project aimed to recreate the interface of a a new kind of restaurantThis project aimed to recreate the interface of a a new kind of restaurantThis project aimed to recreate the interface of a a new kind of restaurant",
     "image": "./OhMyImage/titleOhMy.png",
     "carouselImg": ["./OhMyImage/1.png", "./OhMyImage/2.png"],
     "gitHubLink": "https://erwanrob.github.io/Project_4_OhMyFood/"
@@ -10,6 +12,8 @@
   {
     "id": "2",
     "title": "Sophie Bluel",
+    "byline": "My first project working with an API for user login and data fetching",
+    "tags": ["HTML", "CSS", "JAVASCRIPT"],
     "description": "This project make me learn about login in javascript, and how to use an API and its endpoints",
     "image": "./SBImage/titleSB.png",
     "carouselImg": [
@@ -23,7 +27,21 @@
   {
     "id": "3",
     "title": "Nina Carducci",
-    "description": "With this project i learn SEO, how to optimise website for them to be seen",
+    "byline": "Nina CarducciNina CarducciNina CarducciNina Carducci",
+    "tags": [
+      "HTML",
+      "CSS",
+      "SEO",
+      "GoogleAds",
+      "Analytics",
+      "SearchConsole",
+      "KWFINDER",
+      "GTmetrix",
+      "Squoosh",
+      "Lighthouse",
+      "Wave"
+    ],
+    "description": "First Project",
     "image": "./NinaImage/titleNina.png",
     "carouselImg": [
       "./NinaImage/Nina1.png",
@@ -35,6 +53,8 @@
   {
     "id": "4",
     "title": "Kasa",
+    "byline": "",
+    "tags": ["HTML", "CSS", "SASS", "JAVASCRIPT"],
     "description": "Kasa was my first React project.",
     "image": "./KasaImage/Kasatitle.png",
     "carouselImg": [

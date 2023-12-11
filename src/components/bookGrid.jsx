@@ -8,6 +8,8 @@ function BookGrid() {
         <BookCard
           key={project.id}
           title={project.title}
+          byline={project.byline}
+          tags={project.tags}
           description={project.description}
           img={project.image}
           carouselImg={project.carouselImg}

@@ -1,7 +1,16 @@
 import { useState } from "react";
 import Modal from "react-modal";
+import Tag from "./tags";
 
-function BookCard({ title, description, img, carouselImg, gitHubLink }) {
+function BookCard({
+  title,
+  byline,
+  tags,
+  description,
+  img,
+  carouselImg,
+  gitHubLink,
+}) {
   const [face, setFace] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -50,9 +59,16 @@ function BookCard({ title, description, img, carouselImg, gitHubLink }) {
           </button>
         </div>
         <div className="cube__faceTwo cube__face">
-          <h3 className="cube__faceTwo-title">Project: {title}</h3>
-          <p className="cube__faceTwo-byline">{description}</p>
-
+          <div className="cube__faceTwo-title">
+            <h3 className="cube__faceTwo-title-txt">Project: {title}</h3>
+          </div>
+          <p className="cube__faceTwo-byline">{byline}</p>
+          <div className="cube__faceTwo-tagList">
+            {tags.map((tag, index) => (
+              <Tag key={index} tag={tag} />
+            ))}
+            {/* I would like to create the Tag element here <Tag /> */}
+          </div>
           <div className="cube__faceTwo-content">
             <img
               src={carouselImg[0]}
