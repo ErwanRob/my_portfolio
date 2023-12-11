@@ -303,7 +303,7 @@ button:hover {
   width: 100%;
   justify-content: space-between;
   gap: 20px;
-  padding: 0 20px 0 40px;
+  padding: 0 20px 40px 40px;
   box-sizing: border-box;
 }
 @media (max-width: 1024px) {
