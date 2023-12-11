@@ -12,19 +12,23 @@ function Skills() {
         </div>
         <p className="skills-title">JavaScript</p>
         <div className="skills__container">
-          <div className="skills__container-item --js">65%</div>
+          <div className="skills__container-item --js">70%</div>
         </div>
         <p className="skills-title">React</p>
         <div className="skills__container">
-          <div className="skills__container-item --react">60%</div>
+          <div className="skills__container-item --react">65%</div>
         </div>
         <p className="skills-title">Redux</p>
         <div className="skills__container">
-          <div className="skills__container-item --redux">50%</div>
+          <div className="skills__container-item --redux">60%</div>
         </div>
         <p className="skills-title">SASS</p>
         <div className="skills__container">
           <div className="skills__container-item --sass">70%</div>
+        </div>
+        <p className="skills-title">SEO</p>
+        <div className="skills__container">
+          <div className="skills__container-item --seo">80%</div>
         </div>
       </div>
       <div className="skills-Two">

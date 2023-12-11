@@ -132,10 +132,7 @@ function BookCard({
           </button>
         </div>
         <p className="modal__carousel-description">
-          File script : {description} Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Praesentium earum ullam repudiandae quia aliquam
-          illo iure consectetur perferendis rerum accusantium eum, hic nihil
-          explicabo sunt dolore sed et. Eligendi, voluptates?
+          File script : {description}
         </p>
         <div className="modal__link">
           <a className="modal__link-gitLink" href={gitHubLink}>
