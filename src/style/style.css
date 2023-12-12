@@ -791,7 +791,8 @@ code {
   box-sizing: border-box;
 }
 .App-author {
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   padding: 0 10px;
   align-items: flex-end;
 }
@@ -799,6 +800,24 @@ code {
   .App-author {
     text-align: center;
   }
+}
+
+.legal-mention {
+  transition: transform 200ms;
+  color: white;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: rgba(41, 10, 0, 0.1647058824);
+  cursor: grab;
+}
+@media (max-width: 1024px) {
+  .legal-mention {
+    text-align: center;
+  }
+}
+.legal-mention:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -36,11 +36,28 @@ code {
     box-sizing: border-box;
   }
   &-author {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding: 0 10px;
     align-items: flex-end;
     @media (max-width: 1024px) {
       text-align: center;
     }
+  }
+}
+
+.legal-mention {
+  transition: transform 200ms;
+  color: white;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: $color-tertiary;
+  cursor: grab;
+  @media (max-width: 1024px) {
+    text-align: center;
+  }
+  &:hover {
+    transform: scale(1.1);
   }
 }
